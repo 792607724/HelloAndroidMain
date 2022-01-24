@@ -9,6 +9,8 @@ import android.widget.Toast;
 import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.github.iielse.switchbutton.SwitchView;
+
 public class MainActivity extends AppCompatActivity {
 
     @Override
@@ -18,6 +20,22 @@ public class MainActivity extends AppCompatActivity {
 
         Button btn = findViewById(R.id.button);
         Button btn2 = findViewById(R.id.button_2);
+
+        SwitchView switchView = findViewById(R.id.switchButton);
+        switchView.setOnStateChangedListener(new SwitchView.OnStateChangedListener() {
+            @Override
+            public void toggleToOn(SwitchView view) {
+                view.toggleSwitch(true);
+                Toast.makeText(MainActivity.this, "Switch On", Toast.LENGTH_LONG).show();
+            }
+
+            @Override
+            public void toggleToOff(SwitchView view) {
+                view.toggleSwitch(false);
+                Toast.makeText(MainActivity.this, "Switch Off", Toast.LENGTH_LONG).show();
+            }
+        });
+
 
         ActionBar actionBar = getSupportActionBar();
         if (actionBar != null) {
