@@ -3,8 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/AndroidStudioProjects/HelloAndroid/app/src/main/res/layout/activity_main.xml" value="0.18009118541033434" />
-        <entry key="..\:/AndroidStudioProjects/HelloAndroid/app/src/main/res/layout/activity_main2.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/edit.xml" value="0.25555555555555554" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.13728470111448834" />
+        <entry key="app/src/main/res/layout/activity_main2.xml" value="0.165" />
       </map>
     </option>
   </component>

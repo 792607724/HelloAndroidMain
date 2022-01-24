@@ -3,19 +3,39 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
+    android:background="@drawable/zhugeliang"
+    android:orientation="horizontal"
     tools:context=".MainActivity">
 
     <Button
         android:id="@+id/button"
-        android:layout_width="match_parent"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:layout_gravity="top"
+        android:layout_margin="5dp"
+        android:layout_weight="1"
+        android:background="@drawable/edit"
+        android:gravity="right|bottom"
+        android:text="线性布局" />
+
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="500dp"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:layout_weight="1"
+        android:scaleType="fitEnd"
+        android:src="@drawable/laofuzi" />
 
     <Button
         android:id="@+id/button_2"
-        android:layout_width="match_parent"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="Hello" />
+        android:layout_gravity="top"
+        android:layout_margin="5dp"
+        android:layout_weight="1"
+        android:background="@drawable/edit"
+        android:gravity="right|bottom"
+        android:text="相对布局" />
 
 </LinearLayout>

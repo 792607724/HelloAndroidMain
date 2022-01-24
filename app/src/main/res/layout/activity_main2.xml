@@ -1,16 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
+    android:orientation="horizontal"
     tools:context=".MainActivity2">
 
     <TextView
         android:id="@+id/textview"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerInParent="true"
+        android:shadowColor="#ff00ff"
+        android:shadowDx="40"
+        android:shadowDy="40"
+        android:shadowRadius="5"
         android:text="大家！！！这是界面2"
+        android:textColor="#00ffff"
         android:textSize="30dp" />
 
-</LinearLayout>
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_above="@id/textview"
+        android:layout_margin="10dp"
+        android:layout_toRightOf="@id/textview"
+        android:gravity="center"
+        android:shadowColor="#00ff00"
+        android:shadowDx="40"
+        android:shadowDy="40"
+        android:shadowRadius="5"
+        android:text="OK"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/edittext_A"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edit"
+        android:hint="This is EditText"
+        android:inputType="text" />
+</RelativeLayout>
