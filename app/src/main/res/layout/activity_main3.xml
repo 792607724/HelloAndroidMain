@@ -18,4 +18,47 @@
         app:civ_border_color="#ff0000"
         app:civ_border_width="5dp" />
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/basicDialog"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/edit"
+            android:text="基本对话框" />
+
+        <Button
+            android:id="@+id/listDialog"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/edit"
+            android:text="列表对话框" />
+
+        <Button
+            android:id="@+id/singleChoiceDialog"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/edit"
+            android:text="单选对话框" />
+
+        <Button
+            android:id="@+id/multipleChoiceDialog"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/edit"
+            android:text="多选对话框" />
+
+    </LinearLayout>
+
 </LinearLayout>
