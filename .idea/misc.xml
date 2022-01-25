@@ -3,13 +3,24 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="app/src/main/res/drawable/addressbook_view.xml" value="0.2574074074074074" />
+        <entry key="app/src/main/res/drawable/chat_view.xml" value="0.2574074074074074" />
         <entry key="app/src/main/res/drawable/edit.xml" value="0.25555555555555554" />
+        <entry key="app/src/main/res/drawable/explorer_view.xml" value="0.2574074074074074" />
+        <entry key="app/src/main/res/drawable/mine_view.xml" value="0.2574074074074074" />
+        <entry key="app/src/main/res/drawable/text_color_view.xml" value="0.2574074074074074" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.13728470111448834" />
         <entry key="app/src/main/res/layout/activity_main2.xml" value="0.165" />
         <entry key="app/src/main/res/layout/activity_main3.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_main4.xml" value="0.2513586956521739" />
+        <entry key="app/src/main/res/layout/activity_main5.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_main6.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_address_book.xml" value="0.13044579533941236" />
         <entry key="app/src/main/res/layout/fragment_blank.xml" value="0.2513586956521739" />
         <entry key="app/src/main/res/layout/fragment_blank2.xml" value="0.2513586956521739" />
+        <entry key="app/src/main/res/layout/fragment_chat.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_explorer.xml" value="0.13728470111448834" />
+        <entry key="app/src/main/res/layout/fragment_mine.xml" value="0.13728470111448834" />
       </map>
     </option>
   </component>
