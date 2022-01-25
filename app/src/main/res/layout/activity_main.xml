@@ -39,6 +39,8 @@
         android:text="相对布局" />
 
     <com.github.iielse.switchbutton.SwitchView
+        android:id="@+id/switchButton"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"
+        android:layout_margin="50dp" />
 </LinearLayout>
