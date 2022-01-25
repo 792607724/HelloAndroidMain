@@ -20,7 +20,16 @@ public class MainActivity extends AppCompatActivity {
 
         Button btn = findViewById(R.id.button);
         Button btn2 = findViewById(R.id.button_2);
+        Button btn3 = findViewById(R.id.button_3);
 
+
+        btn3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this, MainActivity3.class);
+                startActivity(intent);
+            }
+        });
         SwitchView switchView = findViewById(R.id.switchButton);
         switchView.setOnStateChangedListener(new SwitchView.OnStateChangedListener() {
             @Override
