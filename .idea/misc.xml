@@ -3,6 +3,19 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/AndroidStudioProjects/HelloAndroid/app/src/main/res/layout/activity_main.xml" value="0.1778115501519757" />
+        <entry key="..\:/AndroidStudioProjects/HelloAndroid/app/src/main/res/layout/activity_main4.xml" value="0.1778115501519757" />
+        <entry key="..\:/AndroidStudioProjects/HelloAndroid/app/src/main/res/layout/activity_main6.xml" value="0.1778115501519757" />
+        <entry key="..\:/AndroidStudioProjects/HelloAndroid/app/src/main/res/layout/activity_main7.xml" value="0.1778115501519757" />
+        <entry key="..\:/AndroidStudioProjects/HelloAndroid/app/src/main/res/layout/activity_main8.xml" value="0.18009118541033434" />
+        <entry key="..\:/AndroidStudioProjects/HelloAndroid/app/src/main/res/layout/fragment_blank2.xml" value="0.1778115501519757" />
+        <entry key="..\:/AndroidStudioProjects/HelloAndroid/app/src/main/res/layout/fragment_chat.xml" value="0.1778115501519757" />
+        <entry key="..\:/AndroidStudioProjects/HelloAndroid/app/src/main/res/layout/fragment_explorer.xml" value="0.1778115501519757" />
+        <entry key="..\:/AndroidStudioProjects/HelloAndroid/app/src/main/res/layout/fragment_mine.xml" value="0.1778115501519757" />
+        <entry key="..\:/AndroidStudioProjects/HelloAndroid/app/src/main/res/layout/picture_item.xml" value="0.1" />
+        <entry key="..\:/AndroidStudioProjects/HelloAndroid/app/src/main/res/layout/viewpage_one.xml" value="0.1" />
+        <entry key="..\:/AndroidStudioProjects/HelloAndroid/app/src/main/res/layout/viewpage_three.xml" value="0.1" />
+        <entry key="..\:/AndroidStudioProjects/HelloAndroid/app/src/main/res/layout/viewpage_two.xml" value="0.1" />
         <entry key="app/src/main/res/drawable/addressbook_view.xml" value="0.2574074074074074" />
         <entry key="app/src/main/res/drawable/chat_view.xml" value="0.2574074074074074" />
         <entry key="app/src/main/res/drawable/edit.xml" value="0.25555555555555554" />
