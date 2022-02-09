@@ -1,9 +1,9 @@
 package com.example.helloandroid;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.os.Bundle;
 import android.view.WindowManager;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity9 extends AppCompatActivity {
 
@@ -14,8 +14,6 @@ public class MainActivity9 extends AppCompatActivity {
 
         getWindow().addFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN);
         getSupportActionBar().hide();
-
-
 
     }
 }
