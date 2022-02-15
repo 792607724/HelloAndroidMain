@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity15">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/photoViewer"
+                android:layout_width="400dp"
+                android:layout_height="600dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="30dp"
+                android:background="#e6e6e6" />
+
+            <TextView
+                android:id="@+id/tv_tip_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/photoViewer"
+                android:layout_centerHorizontal="true"
+                android:text="点击按钮拍摄照片" />
+
+            <ImageView
+                android:id="@+id/cameraBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_below="@id/tv_tip_text"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="30dp"
+                android:src="@drawable/camera" />
+        </RelativeLayout>
+    </ScrollView>
+</LinearLayout>
+
