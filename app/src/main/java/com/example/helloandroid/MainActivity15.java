@@ -45,6 +45,14 @@ public class MainActivity15 extends AppCompatActivity {
      * 调用系统应用安装器安装apk（应用升级）
      */
 
+    /**
+     * 相机开发流程:
+     * onCreate()方法用于设置单击事件的监听器，单击之后跳转到checkPermissionAndCamera()方法，用于判断软件是否申请了相机的拍照权限，
+     * 如果申请了权限，就立刻调用摄像头进行拍照，如果没有申请权限，就重新申请权限。onRequestPermissionResult()方法用于重写，
+     * 在能够调用摄像机的情况下，如果用户在手机中选择了相应的摄像头拍照，就正式调用摄像头开始拍照。
+     * 如果用户没有选择相应的摄像头，就通过Toast显示“取消”提示框，表示用户取消了拍照操作。
+     */
+
     private ImageView photoViewer, cameraBtn;
     private TextView tv_tip_text;
     private static final int CAMERA_REQUEST_CODE = 0x00000010;
