@@ -40,7 +40,6 @@ public class MainActivity15 extends AppCompatActivity {
      * 通过 content://的模式替换掉 file://，同时，需要开发者主动升级 targetSdkVersion 到 24 才会执行此策略。
      * FileProvider是android support v4包提供的，是ContentProvider的子类，便于将自己app的数据提供给其他app访问。
      * 在app开发过程中需要用到FileProvider的主要有
-     * <p>
      * 相机拍照以及图片裁剪
      * 调用系统应用安装器安装apk（应用升级）
      */
