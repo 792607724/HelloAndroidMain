@@ -3,7 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/AndroidStudioProjects/HelloAndroid/app/src/main/res/drawable/addressbook_view.xml" value="0.245" />
+        <entry key="..\:/AndroidStudioProjects/HelloAndroid/app/src/main/res/drawable/chat_view.xml" value="0.245" />
+        <entry key="..\:/AndroidStudioProjects/HelloAndroid/app/src/main/res/drawable/edit.xml" value="0.245" />
         <entry key="..\:/AndroidStudioProjects/HelloAndroid/app/src/main/res/drawable/frame_animation.xml" value="0.1455" />
+        <entry key="..\:/AndroidStudioProjects/HelloAndroid/app/src/main/res/drawable/mine_view.xml" value="0.245" />
         <entry key="..\:/AndroidStudioProjects/HelloAndroid/app/src/main/res/layout/activity_main.xml" value="0.1778115501519757" />
         <entry key="..\:/AndroidStudioProjects/HelloAndroid/app/src/main/res/layout/activity_main10.xml" value="0.1" />
         <entry key="..\:/AndroidStudioProjects/HelloAndroid/app/src/main/res/layout/activity_main11.xml" value="0.1" />
@@ -17,6 +21,7 @@
         <entry key="..\:/AndroidStudioProjects/HelloAndroid/app/src/main/res/layout/activity_main7.xml" value="0.1778115501519757" />
         <entry key="..\:/AndroidStudioProjects/HelloAndroid/app/src/main/res/layout/activity_main8.xml" value="0.18009118541033434" />
         <entry key="..\:/AndroidStudioProjects/HelloAndroid/app/src/main/res/layout/activity_main9.xml" value="0.1778115501519757" />
+        <entry key="..\:/AndroidStudioProjects/HelloAndroid/app/src/main/res/layout/activity_sdktest_mainactivity.xml" value="0.1" />
         <entry key="..\:/AndroidStudioProjects/HelloAndroid/app/src/main/res/layout/fragment_blank2.xml" value="0.1778115501519757" />
         <entry key="..\:/AndroidStudioProjects/HelloAndroid/app/src/main/res/layout/fragment_chat.xml" value="0.1778115501519757" />
         <entry key="..\:/AndroidStudioProjects/HelloAndroid/app/src/main/res/layout/fragment_explorer.xml" value="0.1778115501519757" />

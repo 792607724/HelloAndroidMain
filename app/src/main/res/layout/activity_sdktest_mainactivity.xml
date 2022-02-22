@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SDKTest_mainactivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edit"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/btn_enumDevice"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="枚举出所有CameraDevice设备">
+
+                </Button>
+
+                <Button
+                    android:id="@+id/btn_openSpecificDevice"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="打开指定设备">
+
+                </Button>
+
+                <Button
+                    android:id="@+id/btn_readSoftwareVersion"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="读取软件版本">
+
+                </Button>
+
+                <Button
+                    android:id="@+id/btn_readCameraModuleName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="读取摄像头模组名称">
+
+                </Button>
+
+                <Button
+                    android:id="@+id/btn_zoom"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="放大缩小, zoom_type指定类型. step指定缩放的步进值">
+
+                </Button>
+
+                <Button
+                    android:id="@+id/btn_move"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="移动摄像头. direction 指定移动的方向. step指定移动步长">
+
+                </Button>
+
+                <Button
+                    android:id="@+id/btn_isSupportEPTZ"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="检测是否支持电子云台">
+
+                </Button>
+
+                <Button
+                    android:id="@+id/btn_getEPTZ"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="获取电子云台开关">
+
+                </Button>
+
+                <Button
+                    android:id="@+id/btn_setEPTZ"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="设置电子云台开关">
+
+                </Button>
+
+                <Button
+                    android:id="@+id/btn_getEPTZmode"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="获取电子云台模式">
+
+                </Button>
+
+                <Button
+                    android:id="@+id/btn_setEPTZmode"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="设置电子云台模式">
+
+                </Button>
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Result：" />
+
+            <TextView
+                android:id="@+id/tv_result"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edit"
+                android:text="点击测试对应接口，结果将会显示在此处……" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
