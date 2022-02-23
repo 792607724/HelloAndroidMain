@@ -82,12 +82,8 @@ public class MainActivity10 extends AppCompatActivity {
     private Handler handler = new Handler() {
         @Override
         public void handleMessage(@NonNull Message msg) {
-            switch (msg.what) {
-                case 1:
-                    click_to_skip.setText(String.valueOf(++num) + "s");
-                    break;
-                default:
-                    break;
+            if (msg.what == 1) {
+                click_to_skip.setText(String.valueOf(++num) + "s");
             }
         }
     };
