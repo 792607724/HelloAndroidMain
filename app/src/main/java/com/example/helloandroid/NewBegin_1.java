@@ -1,5 +1,6 @@
 package com.example.helloandroid;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -14,17 +15,23 @@ public class NewBegin_1 extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_new_begin1);
-
-        btn_jumpToSDKTest = findViewById(R.id.btn_jumpToSDKTest);
-        btn_jumpToSDKTest.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent = new Intent(NewBegin_1.this, SDKTest_mainactivity.class);
-                startActivity(intent);
+        setContentView(R.layout.activity_new_begin2);
 
 
-            }
-        });
+//        btn_jumpToSDKTest = findViewById(R.id.btn_jumpToSDKTest);
+//        btn_jumpToSDKTest.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//                Intent intent = new Intent(NewBegin_1.this, SDKTest_mainactivity.class);
+//                startActivity(intent);
+//
+//
+//            }
+//        });
+    }
+
+    @Override
+    protected void onRestart() {
+        super.onRestart();
     }
 }

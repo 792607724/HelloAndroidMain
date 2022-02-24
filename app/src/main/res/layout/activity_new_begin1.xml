@@ -1,34 +1,241 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".NewBegin_1">
 
-    <Button
-        android:id="@+id/btn_jumpToSDKTest"
-        android:layout_width="130dp"
-        android:layout_height="50dp"
-        android:background="@drawable/ic_launcher_background"
-        android:text="跳转至SDK测试界面" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:adjustViewBounds="true"
-        android:cropToPadding="true"
-        android:maxWidth="50dp"
-        android:maxHeight="50dp"
-        android:scaleType="centerInside"
-        android:src="@drawable/mine_page"
-        android:tint="#99444444"
-        tools:ignore="UseAppTint" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
 
-    <ToggleButton
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textOff="关闭"
-        android:textOn="打开" />
+            <Button
+                android:id="@+id/btn_jumpToSDKTest"
+                android:layout_width="130dp"
+                android:layout_height="50dp"
+                android:background="@drawable/ic_launcher_background"
+                android:ellipsize="end"
+                android:text="跳转至SDK测试界面" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:cropToPadding="true"
+                android:maxWidth="50dp"
+                android:maxHeight="50dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/mine_page"
+                android:tint="#99444444"
+                android:visibility="gone"
+                tools:ignore="UseAppTint" />
+
+            <ToggleButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textOff="关闭"
+                android:textOn="打开"
+                android:visibility="gone" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="Alive"
+                android:visibility="gone" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:orientation="horizontal"
+                android:visibility="gone">
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:text="1" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:text="2" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:text="3" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:text="4" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:text="5" />
+
+            </RadioGroup>
+
+            <DatePicker
+                android:layout_width="300dp"
+                android:layout_height="430dp"
+                android:visibility="gone" />
+
+            <TimePicker
+                android:layout_width="300dp"
+                android:layout_height="430dp"
+                android:visibility="gone" />
+
+            <ProgressBar
+                style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:indeterminate="true"
+                android:progress="68"
+                android:visibility="gone" />
+
+            <ProgressBar
+                style="android:attr/progressBarStyleLarge"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:indeterminate="true"
+                android:visibility="gone" />
+
+            <SeekBar
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:foreground="#27f340f8"
+                android:max="520"
+                android:progress="52"
+                android:secondaryProgress="104"
+                android:visibility="gone" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:bufferType="editable"
+                android:lineSpacingExtra="10dp"
+                android:lines="3"
+                android:shadowColor="#ff00ff"
+                android:shadowRadius="8"
+                android:text="本属性如表2-2所示，这些属性大部分可用于TextView，也可适用于EditText和Button，仅有少部分属性只适用于其中之一"
+                android:textIsSelectable="true" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="This is a edittext description!"
+                android:includeFontPadding="false"
+                android:lines="3"
+                android:visibility="gone" />
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="600dp">
+
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="89dp"
+                    android:layout_marginTop="41dp"
+                    android:text="@string/login_info"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <EditText
+                    android:id="@+id/editTextTextPersonName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="26dp"
+                    android:ems="10"
+                    android:hint="@string/InfoNameInput"
+                    android:inputType="textPersonName"
+                    app:layout_constraintStart_toStartOf="@+id/textView2"
+                    app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+                <EditText
+                    android:id="@+id/editTextTextPassword"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="23dp"
+                    android:ems="10"
+                    android:hint="@string/info_password_input"
+                    android:inputType="textPassword"
+                    app:layout_constraintStart_toStartOf="@+id/editTextTextPersonName"
+                    app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName" />
+
+                <CheckBox
+                    android:id="@+id/checkBox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="18dp"
+                    android:text="@string/chkLogin"
+                    app:layout_constraintStart_toStartOf="@+id/editTextTextPassword"
+                    app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword" />
+
+                <RadioGroup
+                    android:id="@+id/radioGroup2"
+                    android:layout_width="0dp"
+                    android:layout_height="64dp"
+                    android:layout_marginStart="4dp"
+                    android:layout_marginEnd="3dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="@+id/editTextTextPassword"
+                    app:layout_constraintStart_toStartOf="@+id/checkBox"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <RadioButton
+                        android:id="@+id/radioButton"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/rbtnLogin1" />
+
+                    <RadioButton
+                        android:id="@+id/radioButton2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/rbtnLogin2" />
+                </RadioGroup>
+
+                <Button
+                    android:id="@+id/button2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="29dp"
+                    android:text="@string/btnLogin"
+                    app:layout_constraintBaseline_toBaselineOf="@+id/button3"
+                    app:layout_constraintEnd_toStartOf="@+id/button3" />
+
+                <Button
+                    android:id="@+id/button3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="25dp"
+                    android:layout_marginEnd="2dp"
+                    android:text="@string/btnExit"
+                    app:layout_constraintEnd_toEndOf="@+id/radioGroup2"
+                    app:layout_constraintTop_toBottomOf="@+id/radioGroup2" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
 
 </LinearLayout>

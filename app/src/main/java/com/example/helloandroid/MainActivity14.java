@@ -7,6 +7,7 @@ import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -147,6 +148,7 @@ public class MainActivity14 extends AppCompatActivity {
                         0, 0, Bitmap.Config.RGB_565, new Response.ErrorListener() {
                     @Override
                     public void onErrorResponse(VolleyError error) {
+                        Toast.makeText(MainActivity14.this, String.valueOf(error), Toast.LENGTH_SHORT).show();
                         iv_volley.setVisibility(View.VISIBLE);
                         iv_volley.setImageResource(R.drawable.mine_page);
                     }
