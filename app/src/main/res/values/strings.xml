@@ -11,4 +11,5 @@
     <string name="rbtnLogin2">邮箱账号登录</string>
     <string name="btnLogin">登录</string>
     <string name="btnExit">退出</string>
+    <string name="mybtn">我的按钮超逊的</string>
 </resources>

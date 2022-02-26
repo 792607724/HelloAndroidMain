@@ -7,10 +7,12 @@
 
     <FrameLayout
         android:id="@+id/frameLayout2"
-        android:layout_width="161dp"
+        android:layout_width="0dp"
         android:layout_height="154dp"
         android:layout_marginStart="56dp"
         android:layout_marginTop="159dp"
+        android:layout_marginEnd="42dp"
+        app:layout_constraintEnd_toStartOf="@+id/myButton"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
@@ -19,5 +21,17 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             app:srcCompat="@drawable/camera" />
+
     </FrameLayout>
+
+    <com.example.helloandroid.MyButton
+        android:id="@+id/myButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="53dp"
+        android:layout_marginEnd="30dp"
+        android:text="@string/mybtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/frameLayout2"
+        app:layout_constraintTop_toTopOf="@+id/frameLayout2" />
 </androidx.constraintlayout.widget.ConstraintLayout>
