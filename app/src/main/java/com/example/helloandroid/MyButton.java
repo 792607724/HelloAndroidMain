@@ -23,7 +23,7 @@ public class MyButton extends androidx.appcompat.widget.AppCompatButton {
     }
 
     @Override
-    public boolean onKeyUp(int keyCode, KeyEvent event){
+    public boolean onKeyUp(int keyCode, KeyEvent event) {
         super.onKeyUp(keyCode, event);
         Toast.makeText(getContext(), "调用onKeyUp()", Toast.LENGTH_SHORT).show();
         Log.i(TAG, "调用onKeyUp()");
