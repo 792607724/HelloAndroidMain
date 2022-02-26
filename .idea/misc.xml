@@ -3,12 +3,13 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/AndroidStudioProjects/HelloAndroid/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1" />
         <entry key="..\:/AndroidStudioProjects/HelloAndroid/app/src/main/res/drawable/addressbook_view.xml" value="0.245" />
         <entry key="..\:/AndroidStudioProjects/HelloAndroid/app/src/main/res/drawable/chat_view.xml" value="0.245" />
         <entry key="..\:/AndroidStudioProjects/HelloAndroid/app/src/main/res/drawable/edit.xml" value="0.245" />
         <entry key="..\:/AndroidStudioProjects/HelloAndroid/app/src/main/res/drawable/frame_animation.xml" value="0.1455" />
         <entry key="..\:/AndroidStudioProjects/HelloAndroid/app/src/main/res/drawable/mine_view.xml" value="0.245" />
-        <entry key="..\:/AndroidStudioProjects/HelloAndroid/app/src/main/res/layout/activity_main.xml" value="0.1778115501519757" />
+        <entry key="..\:/AndroidStudioProjects/HelloAndroid/app/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="..\:/AndroidStudioProjects/HelloAndroid/app/src/main/res/layout/activity_main10.xml" value="0.1" />
         <entry key="..\:/AndroidStudioProjects/HelloAndroid/app/src/main/res/layout/activity_main11.xml" value="0.1" />
         <entry key="..\:/AndroidStudioProjects/HelloAndroid/app/src/main/res/layout/activity_main12.xml" value="0.25" />
@@ -21,7 +22,9 @@
         <entry key="..\:/AndroidStudioProjects/HelloAndroid/app/src/main/res/layout/activity_main7.xml" value="0.1778115501519757" />
         <entry key="..\:/AndroidStudioProjects/HelloAndroid/app/src/main/res/layout/activity_main8.xml" value="0.18009118541033434" />
         <entry key="..\:/AndroidStudioProjects/HelloAndroid/app/src/main/res/layout/activity_main9.xml" value="0.1778115501519757" />
-        <entry key="..\:/AndroidStudioProjects/HelloAndroid/app/src/main/res/layout/activity_sdktest_mainactivity.xml" value="0.1" />
+        <entry key="..\:/AndroidStudioProjects/HelloAndroid/app/src/main/res/layout/activity_new_begin1.xml" value="0.33" />
+        <entry key="..\:/AndroidStudioProjects/HelloAndroid/app/src/main/res/layout/activity_new_begin2.xml" value="0.3619791666666667" />
+        <entry key="..\:/AndroidStudioProjects/HelloAndroid/app/src/main/res/layout/activity_sdktest_mainactivity.xml" value="0.33" />
         <entry key="..\:/AndroidStudioProjects/HelloAndroid/app/src/main/res/layout/fragment_blank2.xml" value="0.1778115501519757" />
         <entry key="..\:/AndroidStudioProjects/HelloAndroid/app/src/main/res/layout/fragment_chat.xml" value="0.1778115501519757" />
         <entry key="..\:/AndroidStudioProjects/HelloAndroid/app/src/main/res/layout/fragment_explorer.xml" value="0.1778115501519757" />
@@ -30,6 +33,9 @@
         <entry key="..\:/AndroidStudioProjects/HelloAndroid/app/src/main/res/layout/viewpage_one.xml" value="0.1" />
         <entry key="..\:/AndroidStudioProjects/HelloAndroid/app/src/main/res/layout/viewpage_three.xml" value="0.1" />
         <entry key="..\:/AndroidStudioProjects/HelloAndroid/app/src/main/res/layout/viewpage_two.xml" value="0.1" />
+        <entry key="..\:/AndroidStudioProjects/HelloAndroid/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1" />
+        <entry key="..\:/AndroidStudioProjects/HelloAndroid/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1" />
+        <entry key="..\:/AndroidStudioProjects/HelloAndroid/app/src/main/res/xml/device_filter.xml" value="0.18009118541033434" />
         <entry key="..\:/AndroidStudioProjects/HelloAndroid/app/src/main/res/xml/file_path.xml" value="0.32065217391304346" />
         <entry key="..\:/AndroidStudioProjects/HelloAndroid/app/src/main/res/xml/file_paths.xml" value="0.32065217391304346" />
         <entry key="app/src/main/res/drawable/addressbook_view.xml" value="0.2574074074074074" />
@@ -39,16 +45,11 @@
         <entry key="app/src/main/res/drawable/mine_view.xml" value="0.2574074074074074" />
         <entry key="app/src/main/res/drawable/text_color_view.xml" value="0.2574074074074074" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.13728470111448834" />
-        <entry key="app/src/main/res/layout/activity_main12.xml" value="0.20697463768115942" />
-        <entry key="app/src/main/res/layout/activity_main13.xml" value="0.20697463768115942" />
-        <entry key="app/src/main/res/layout/activity_main14.xml" value="0.20697463768115942" />
         <entry key="app/src/main/res/layout/activity_main2.xml" value="0.165" />
         <entry key="app/src/main/res/layout/activity_main3.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_main4.xml" value="0.2513586956521739" />
         <entry key="app/src/main/res/layout/activity_main5.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_main6.xml" value="0.1" />
-        <entry key="app/src/main/res/layout/activity_new_begin1.xml" value="0.25" />
-        <entry key="app/src/main/res/layout/activity_new_begin2.xml" value="0.1" />
         <entry key="app/src/main/res/layout/fragment_address_book.xml" value="0.13044579533941236" />
         <entry key="app/src/main/res/layout/fragment_blank.xml" value="0.2513586956521739" />
         <entry key="app/src/main/res/layout/fragment_blank2.xml" value="0.2513586956521739" />
