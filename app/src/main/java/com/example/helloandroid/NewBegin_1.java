@@ -8,9 +8,14 @@ import android.app.PendingIntent;
 import android.content.Intent;
 import android.graphics.BitmapFactory;
 import android.os.Bundle;
+import android.util.Log;
+import android.view.KeyEvent;
+import android.view.MotionEvent;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageView;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -20,6 +25,10 @@ public class NewBegin_1 extends AppCompatActivity {
 
     private Button btn_jumpToSDKTest;
     private MyButton myButton;
+    private TextView textView;
+    private ImageView imageView;
+    private EditText editTextTextPersonName2;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -75,6 +84,11 @@ public class NewBegin_1 extends AppCompatActivity {
                         .setPriority(NotificationCompat.PRIORITY_MAX)
                         .setVisibility(NotificationCompat.VISIBILITY_PUBLIC)
                         .setContentIntent(pendingIntent).build();
+                Log.e("Error info", "Test Error level Log");
+                Log.v("Verbose info", "Test Verbose level Log");
+                Log.w("Warning info", "Test Warning level Log");
+                Log.i("Information info", "Test Information level Log");
+                Log.d("Debug info", "Test Debug level Log");
                 notificationManager.notify(i, notification);
 
 
@@ -88,9 +102,43 @@ public class NewBegin_1 extends AppCompatActivity {
 //                    }
 //
 //                }
-
             }
         });
+
+        textView = findViewById(R.id.textView);
+        imageView = findViewById(R.id.imageView);
+        editTextTextPersonName2 = findViewById(R.id.editTextTextPersonName2);
+
+        editTextTextPersonName2.setOnKeyListener(new View.OnKeyListener() {
+            @Override
+            public boolean onKey(View view, int i, KeyEvent keyEvent) {
+                switch (keyEvent.getAction()) {
+                    case KeyEvent.ACTION_DOWN:
+                        String strLabel = editTextTextPersonName2.getText().toString();
+                        if (strLabel.matches("\\w+@+\\w+\\.\\w+")) {
+                            imageView.setImageResource(R.drawable.chat_highlight);
+                        } else {
+                            imageView.setImageResource(R.drawable.chat);
+                        }
+                        break;
+                    case KeyEvent.ACTION_UP:
+                        break;
+                }
+                return false;
+            }
+        });
+
+    }
+
+    @Override
+    public boolean onTouchEvent(MotionEvent event) {
+        if (event.getAction() == MotionEvent.ACTION_DOWN) {
+            float x = event.getX();
+            float y = event.getY();
+            textView.setText("触控位置：(" + String.valueOf(x) + " , " + String.valueOf(y) + ")");
+        }
+
+        return super.onTouchEvent(event);
     }
 
     @Override
