@@ -7,6 +7,7 @@ import android.app.NotificationManager;
 import android.app.PendingIntent;
 import android.content.Intent;
 import android.graphics.BitmapFactory;
+import android.net.Uri;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.KeyEvent;
@@ -15,6 +16,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -23,12 +25,13 @@ import androidx.core.app.NotificationCompat;
 
 public class NewBegin_1 extends AppCompatActivity {
 
-    private Button btn_jumpToSDKTest;
+    private Button btn_jumpToSDKTest, button4, button5;
     private MyButton myButton;
     private TextView textView;
     private ImageView imageView;
-    private EditText editTextTextPersonName2;
-
+    private EditText editTextTextPersonName2, editTextTextPersonName3;
+    private LinearLayout linearLayout;
+    int count = 1;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -128,6 +131,35 @@ public class NewBegin_1 extends AppCompatActivity {
             }
         });
 
+        linearLayout = findViewById(R.id.linearLayout);
+        button4 = findViewById(R.id.button4);
+
+        button4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                EditText editText = new EditText(NewBegin_1.this);
+                editText.setHint("创建第" + String.valueOf(count) + "个联系人");
+                linearLayout.addView(editText);
+                Toast.makeText(NewBegin_1.this, "当前已经创建" + String.valueOf(count) + "个联系人", Toast.LENGTH_SHORT).show();
+                count++;
+            }
+        });
+
+        button5 = findViewById(R.id.button5);
+        editTextTextPersonName3 = findViewById(R.id.editTextTextPersonName3);
+        button5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                String url = editTextTextPersonName3.getText().toString();
+                if (!"".equals(url)) {
+                    Uri uri = Uri.parse("http://" + url);
+                    Intent intent = new Intent(Intent.ACTION_VIEW, uri);
+                    startActivity(intent);
+                } else {
+                    Toast.makeText(NewBegin_1.this, "请输入网址以进行跳转打开", Toast.LENGTH_SHORT).show();
+                }
+            }
+        });
     }
 
     @Override
